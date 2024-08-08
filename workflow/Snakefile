@@ -274,7 +274,7 @@ rule aln:
         S=S,
         MAP_PARAMS=MAP_PARAMS,
     resources:
-        mem=4,
+        mem=2,
     shell:
         """
         ( minimap2 \

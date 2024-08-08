@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import argparse
-
+print(1111)
 parser = argparse.ArgumentParser(description="")
 parser.add_argument("samfile", help="input sam or bam file")
 # parser.add_argument("",help="",default=None)
@@ -18,6 +18,8 @@ import os
 import sys
 import re
 import pysam
+
+
 
 
 def makeHeader():
